@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Day Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="musicToggle" class="music-btn">🔊 Music</button>
+        <audio id="bgMusic" loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+            <div class="rose-animation">
+                <span class="rose">🌹</span>
+                <span class="rose">🌹</span>
+                <span class="rose">🌹</span>
+            </div>
+            <h1 class="title">Happy Rose Day</h1>
+            <p class="subtitle">A celebration of love and affection</p>
+            
+            <div class="romantic-message">
+                <h2>A Message For You</h2>
+                <p class="message-text">
+                    Like a rose that blooms with grace and beauty,<br>
+                    You bring color to my life every single day.<br>
+                    Your presence is a fragrance that fills my heart with joy,<br>
+                    And your love is the most precious garden I've ever known.<br><br>
+                    This Rose Day, I want to tell you that you're not just a flower in my life—<br>
+                    You're the entire garden, the sunshine, and the reason I smile.<br>
+                </p>
+            </div>
+        </section>
+
+        <!-- Poem Section -->
+        <section class="poem-section">
+            <h2>For You, My Love</h2>
+            <div class="poem">
+                <p class="verse">
+                    A rose so red, with petals soft and fine,<br>
+                    Reminds me of your beauty, so divine.<br>
+                    Your smile blooms brighter than any flower,<br>
+                    You are my strength, my joy, my power.<br><br>
+                    
+                    In gardens vast or valleys deep and wide,<br>
+                    No rose could ever match you by my side.<br>
+                    Your thorns protect a heart so pure and true,<br>
+                    Forever and always, I love you.<br><br>
+                    
+                    This Rose Day comes but once each year,<br>
+                    But my love for you is ever near.<br>
+                    So take this rose, take this humble song,<br>
+                    You're my forever, my whole life long.<br>
+                </p>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="gallery-section">
+            <h2>Our Memories</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=400&fit=crop" alt="Beautiful Rose">
+                    <div class="overlay">
+                        <p>Timeless Beauty</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1582794543139-4edd6b7d0fd1?w=400&h=400&fit=crop" alt="Red Roses">
+                    <div class="overlay">
+                        <p>Deep Love</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1599599810694-b5ac1ea26830?w=400&h=400&fit=crop" alt="Pink Roses">
+                    <div class="overlay">
+                        <p>Sweet Moments</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614707267537-b85faf00021b?w=400&h=400&fit=crop" alt="Rose Garden">
+                    <div class="overlay">
+                        <p>Eternal Bond</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563241527-3004b2c67dba?w=400&h=400&fit=crop" alt="Romantic Roses">
+                    <div class="overlay">
+                        <p>Forever Yours</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549887534-7c0d0b6b0ab9?w=400&h=400&fit=crop" alt="Love Flowers">
+                    <div class="overlay">
+                        <p>Endless Love</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Love Calculator -->
+        <section class="interactive-section">
+            <h2>Love Meter</h2>
+            <p>Click the heart to measure the love! 💕</p>
+            <div class="love-meter">
+                <button class="heart-btn" id="heartBtn">💗</button>
+                <div class="meter-bar">
+                    <div class="meter-fill" id="meterFill"></div>
+                </div>
+                <p id="lovePercentage">Click the heart!</p>
+            </div>
+        </section>
+
+        <!-- Floating Hearts -->
+        <section class="hearts-section">
+            <h2>Express Your Love</h2>
+            <div class="hearts-container" id="heartsContainer"></div>
+            <button class="create-heart-btn" id="createHeartBtn">Generate Hearts 💕</button>
+        </section>
+
+        <!-- Closing Message -->
+        <section class="closing-section">
+            <h2>With All My Love</h2>
+            <p>
+                Today is just one day to celebrate what I feel every single day—<br>
+                that you are the most wonderful person in my life.<br>
+                Thank you for being my rose, my love, my everything.
+            </p>
+            <div class="rose-footer">🌹 Happy Rose Day 🌹</div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
